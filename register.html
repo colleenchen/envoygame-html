@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <!--Header Start-->
+    <header>
+        <a href="index.html" class="logo"><img src="images/EnvoyLogo.png" alt="logo"></a>
+        <ul class="nav">
+            <li><a href="userInfo.html">個人資料</a></li>
+            <li><a href="gameList.html">遊戲列表</a></li>
+            <li><a>登出</a></li>
+        </ul>
+        <div class="menu-icon">
+            <div class="menu-icon_hamburger"></div>
+        </div>
+    </header>
+    <!--Header End-->
+
+
+    <!--Section register Start-->
+    <section class="log-in register">
+        <div class="con">
+            <div class="frame-box">
+                <h1>建立新帳號</h1>
+                <form class="fill-con">
+                    <ul class="info-box">
+                        <li>
+                            <div class="label">
+                                <label for="email">E-mail</label>
+                                <div class="ps">＊請完成資料填寫</div>
+                            </div>
+                            <div class="info">
+                                <input type="email" placeholder="請輸入 E-mail" />
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="label">
+                                <label for="password">密碼</label>
+                                <div class="ps">＊注意，英文有大小寫之分
+                                </div>
+                            </div>
+                            <div class="info">
+                                <input type="password" placeholder="請輸入密碼" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="label">
+                                <label for="password">再次確認密碼</label>
+                                <div class="ps">＊注意，英文有大小寫之分
+                                </div>
+                            </div>
+                            <div class="info">
+                                <input type="password" placeholder="再次確認密碼
+                                " />
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="privacy-box">
+                        <input type="checkbox" /><span>我同意<a class="open-popup"
+                                data-pop="personalInfo-pop">隱私權條款</a></span>
+                    </div>
+                    <div class="btn-box">
+                        <a href="register-complete.html" class="btn">下一步</a>
+                    </div>
+                </form>
+                <div class="verifCode"><a href=""><i class="bi bi-exclamation-circle"></i>無法收到驗證碼？</a></div>
+
+            </div>
+        </div>
+    </section>
+    <!--Section register End-->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="con">
+            <div class="coR">Envoy Interactive Entertainment Co. Ltd. © 2019 Copyrights Reserved.</div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- POP Start-->
+    <div class="popup" id="personalInfo-pop">
+        <div class="pop-frame">
+            <span class="pop-close"></span>
+            <div class="pop-con">
+                <div class="header">
+                    <h1>我是標題</h1>
+                </div>
+                <div class="context">
+                    <p>
+                        我是普通說明文字的範例我是普通說明文字的範例我是普通說明文字的範例，我是普通說明文字的範例。
+                    </p>
+                    <ul>
+                        <li>樣式 顯示範例
+                            <ul>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ol>
+                        <li>樣式 顯示範例
+                            <ol>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <a>我是文字連結顯示範例</a>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a class="btn popClose">關閉</a>
+            </div>
+        </div>
+    </div>
+    <!-- POP End-->
+
+
+
+</body>
+
+<script src="js/jquery-3.6.4.js"></script>
+<script src="js/main.js"></script>
+
+</html>

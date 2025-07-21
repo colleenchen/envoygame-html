@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <!--Header Start-->
+    <header>
+        <a href="index.html" class="logo"><img src="images/EnvoyLogo.png" alt="logo"></a>
+        <ul class="nav">
+            <li><a href="userInfo.html">個人資料</a></li>
+            <li><a href="gameList.html">遊戲列表</a></li>
+            <li><a>登出</a></li>
+        </ul>
+        <div class="menu-icon">
+            <div class="menu-icon_hamburger"></div>
+        </div>
+    </header>
+    <!--Header End-->
+
+
+    <!--Section game-list Start-->
+    <section class="log-in activity">
+        <div class="con">
+            <div class="path"><a href="activity.html"><i class="bi bi-arrow-left-circle-fill"></i>活動列表</a></div>
+            <div class="frame-box">
+                <h1>恭喜中獎</h1>
+                <h2>ＸＸＸＸ（活動名稱）</h2>
+                <div class="awards">恭喜獲得<div class="co-red">【ＸＸ禮物】</div>
+                </div>
+                <div class="txt">我是說明文字範例，我是說明文字範例，我是說明文字範例我是說明文字範例是說明文字範例，我是說明文字範例，我是說明文字範例我是說明文字範例</div>
+                <form class="fill-con">
+                    <ul class="info-box">
+                        <li>
+                            <div class="label">
+                                <label for="address">聯絡地址</label>
+                                <div class="ps">＊請完成資料填寫</div>
+                            </div>
+                            <div class="info">
+                                <input type="text" name="address" placeholder="請輸入聯絡地址" />
+                                <div class="chk"><input type="checkbox" />同戶籍地址</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="label">
+                                <label for="idCard">身分證正面</label>
+                                <div class="ps">＊請上傳對應的照片</div>
+                            </div>
+                            <div class="info">
+                                <input name="idCard" type="file" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="label">
+                                <div class="ps">＊請確認所有資料都已經填妥</div>
+                            </div>
+                            <div class="info">
+                                <a class="line-btn">預覽領獎確認單</a>
+                                <div class="chk"><input type="checkbox" />確認領獎確認單無誤
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="label">
+                                <label for="address">聯絡電話</label>
+                                <div class="ps">＊請完成資料填寫</div>
+                            </div>
+                            <div class="info">
+                                <div class="groups"><input type="text" class="countryCode" name="countryCode"
+                                        placeholder="+886" /><input type="text" name="address" placeholder="請輸入聯絡電話" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="privacy-box">
+                        <input type="checkbox"><span>已詳閱並同意<a class="open-popup"
+                                data-pop="personalInfo-pop">個資隱私權同意書</a></span>
+                    </div>
+                    <div class="btn-box">
+                        <a class="btn" href="award-complete.html">完成填寫</a>
+                    </div>
+                </form>
+            </div>
+    </section>
+    <!--Section game-list End-->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="con">
+            <div class="coR">Envoy Interactive Entertainment Co. Ltd. © 2019 Copyrights Reserved.</div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- POP Start-->
+    <div class="popup" id="personalInfo-pop">
+        <div class="pop-frame">
+            <span class="pop-close"></span>
+            <div class="pop-con">
+                <div class="header">
+                    <h1>我是標題</h1>
+                </div>
+                <div class="context">
+                    <p>
+                        我是普通說明文字的範例我是普通說明文字的範例我是普通說明文字的範例，我是普通說明文字的範例。
+                    </p>
+                    <ul>
+                        <li>樣式 顯示範例
+                            <ul>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ol>
+                        <li>樣式 顯示範例
+                            <ol>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                                <li>第二層顯示範例</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <a>我是文字連結顯示範例</a>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a class="btn popClose">關閉</a>
+            </div>
+        </div>
+    </div>
+    <!-- POP End-->
+
+</body>
+
+<script src="js/jquery-3.6.4.js"></script>
+<script src="js/main.js"></script>
+
+</html>

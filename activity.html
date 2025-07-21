@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <!--Header Start-->
+    <header>
+        <a href="index.html" class="logo"><img src="images/EnvoyLogo.png" alt="logo"></a>
+        <ul class="nav">
+            <li><a href="userInfo.html">個人資料</a></li>
+            <li><a href="gameList.html">遊戲列表</a></li>
+            <li><a>登出</a></li>
+        </ul>
+        <div class="menu-icon">
+            <div class="menu-icon_hamburger"></div>
+        </div>
+    </header>
+    <!--Header End-->
+
+
+    <!--Section game-list Start-->
+    <section class="log-in activity">
+        <div class="con">
+            <div class="path"><a href="gameList.html"><i class="bi bi-arrow-left-circle-fill"></i>遊戲列表</a></div>
+            <div class="frame-box">
+                <h1>逆水寒</h1>
+                <div class="form-box">
+                    <h2>我要領獎!</h2>
+                    <form class="fill-con">
+                        <ul class="info-box">
+                            <li>
+                                <div class="label">
+                                    <label for="acKey">活動金鑰</label>
+                                    <div class="ps">＊請輸入</div>
+                                </div>
+                                <div class="info">
+                                    <input type="text" name="acKey" placeholder="請輸入指定的活動金鑰
+                                " />
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn-box">
+                            <a href="award-fillIn.html" class="btn">確認</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box">
+                    <h2>查詢活動得獎內容！</h2>
+                    <form class="fill-con">
+                        <ul class="info-box">
+                            <li>
+                                <div class="label">
+                                    <label for="acKey">活動名稱</label>
+                                </div>
+                                <div class="info">
+                                    <select id="activitySelect">
+                                        <option value="" disabled selected hidden>請選擇活動</option>
+                                        <option value="award-info.html">0615 ROG FB 社群活動</option>
+                                        <option>0617 玄喵夜行抽機車
+                                        </option>
+                                    </select>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Section game-list End-->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="con">
+            <div class="coR">Envoy Interactive Entertainment Co. Ltd. © 2019 Copyrights Reserved.</div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+</body>
+
+<script src="js/jquery-3.6.4.js"></script>
+<script src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,40 @@
+$co-w: rgb(245, 245, 245);
+$co-blk: #000;
+$co-red: #ea0b0b;
+$bg-co: $co-w;
+$bg-co1: #fff5d8;
+$bg-co2: #e2f8ec;
+$menu-co: #7e7e7d;
+$nav-txt-co: #535353;
+$inpt-pl-co: #999999;
+$inpt-bg: #e3e3e3;
+$inpt-bor-co: #e2e2e2;
+$btn-bg-co: #013c82;
+$font-co: #3e3c3c;
+$h1-co: #0274f4;
+$se2-co: #ff9830;
+$qa-co: #5bc180;
+
+$foo-bg: #052556;
+
+$menu-bg: rgba(0, 0, 0, 0.85);
+$menu-nav: #0274f4;
+$menu-co: $co-w;
+
+//圓角
+$radius: 20px;
+
+//裝置分段點
+$XL-W: 1200px; //Extra large devices
+$PC-W: 900px; //desktops
+$TB-W: 768px; //tablets
+$MO-W: 500px; // phones
+
+//漢堡選單
+$menu-color: #7e7e7d;
+$menu-color-close: $menu-co;
+$fatness: 3px;
+
+@mixin transition {
+    transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
